@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.title{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    padding: 9px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+                                            /*ESTILIZANDO A TABELA*/
+                                            
+table{
+    margin: 2%;
+    width: 96%;
+    box-shadow: 2px 2px 2px 2px  rgba(0, 0, 0, 0.179);
+    border-collapse: collapse;
+    
+}
+
+th{
+    background-color: rgb(13, 13, 22);
+    color: white;
+}
+td{
+text-align: center;
+background-color:  rgb(243, 243, 243);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.color{
+    
+    background-color: rgb(255, 0, 0);
+}
+        /*ESTILIZAÇÃO DO FORMULÁRIO INÍCIO*/
+form{
+    width: 95%;
+    background-color: rgba(249, 249, 249, 0.957);
+    padding: 20px;
+}
+
+#id,#nome,#email,#tel{
+    display:flex;
+    width: 95%;
+    margin-top: 1%;
+    padding: 3px;
+
+}
+
+#idade,#turma,#nota{
+
+    display: flex;
+    width: 93%;
+    margin-top: 1%;
+    padding: 3px;
+
+
+}
+
+#opcao{
+    display: flex;
+    width: 98%;
+    margin-top: 1%;
+    padding: 3px;
+
+}
+.form-box, .form-box2,.form-box3, .btn{
+    display: flex;
+    padding: 5px;
+
+}
+
+
+.form-label{
+    width: 100%;
+}
+
+
+#Adicionar-btn{
+    background-color: #0077ff;
+    color: white;
+    height: 30px;
+    padding:  6px;
+    border-radius: 6px;
+    border: 0px;
+    cursor: pointer;
+}

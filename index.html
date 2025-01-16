@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Tabela de Estudantes</title>
+</head>
+<body>
+    <div class="title"><b>Tabela de Estudantes</b></div>
+   <div class="container-table">
+    <table border="1px solid ">
+        
+        <tr>
+         <th>
+             ID
+            </th> <th>
+             Nome
+            </th> <th>
+             Idade
+            </th> <th>
+             Turma
+            </th> <th>
+             Email
+            </th> <th>
+             Telefone
+            </th> <th>
+             Nota final
+            </th>
+            <th>Situação</th>
+        </tr>
+        <tr>
+            <td>2205</td><td>Ivanilson Tomás</td><td>20</td><td>ANI</td><td><a href="mailto:ivanylsonmukoss@gmail.com">ivanylsonmukossa@gmail.com</a></td><td><a href="tel:+244941943702">941943702</a></td><td>9.5</td><td style="color: rgb(0, 161, 3);">Aprovado</td>
+           </tr>
+            <tr>
+             <td>2206</td><td>Cristiano Ronaldo</td><td>40</td><td>ANI</td><td><a href="mailto:ivanylsonmukoss@gmail.com">ivanylsonmukossa@gmail.com</a></td><td><a href="tel:+244">947894561</a></td><td>39</td><td style="color: rgb(0, 161, 3);">Aprovado</td>
+            </tr>
+            <tr>
+             <td>2207</td><td>Kilian Mbappe</td><td>24</td><td>ANI</td><td><a href="mailto:ivanylsonmukoss@gmail.com">ivanylsonmukossa@gmail.com</a></td><td><a href="tel:+244">941943702</a></td><td>9.5</td><td style="color: rgb(0, 161, 3);">Aprovado</td>
+            </tr>
+            <tr>
+             <td>2208</td><td>Vinícios Júnior</td><td>24</td><td>BNI</td><td><a href="mailto:ivanylsonmukoss@gmail.com">ivanylsonmukossa@gmail.com</a></td><td><a href="tel:+244">941547896</a></td><td>9.5</td><td style="color: rgb(0, 161, 3);">Aprovado</td>
+            </tr>
+            <tr>
+             <td>2209</td><td>Rodi Ermandez</td><td>26</td><td>ANI</td><td><a href="mailto:ivanylsonmukoss@gmail.com">ivanylsonmukossa@gmail.com</a></td><td><a href="tel:+244">947896478</a></td><td>2.5</td><td style="color: red;">Reprovado</td>
+            </tr>
+            <tr>
+             <td>2210</td><td>Carlos Ancelott</td><td>70</td><td>ANI</td><td><a href="mailto:ivanylsonmukoss@gmail.com">ivanylsonmukossa@gmail.com</a></td><td><a href="tel:+244941943702">941943702</a></td><td>9.5</td><td style="color: red;">Reprovado</td>
+            </tr>
+ 
+ </table>
+   </div>
+
+    <div class="Adicionar-Estudante">
+       
+        <form action="mailto:ivanylsonmukossa@gmail.com">
+            <div class="text">Adicionar Estudante</div>
+            
+           <div class="form-box">
+
+             <div class="form-label">
+                <label for="id">ID</label>
+                <input type="number" name="id" id="id" placeholder="Digite o ID" required> 
+             </div>  
+              
+             <div class="form-label">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite o Nome" required> 
+            </div> <!--fim form box-->
+
+
+           </div>
+
+           <div class="form-box2">
+            <div class="form-label">
+                <label for="nome">Idade</label> 
+                <input type="number" id="idade" placeholder="Digite a Idade" required> 
+            </div> 
+            
+            <div class="form-label">
+                <label for="nome">Turma</label>
+                <input type="text" name="turma" id="turma" placeholder="Digite a Turma" required>
+            </div>
+            
+            <div class="form-label">
+                <label for="nome">Nota Final</label>
+                <input type="number" name="nota" id="nota" placeholder="Digite a Nota" required>
+            </div>
+
+           </div> <!--fim form box2-->
+             
+            <div class="form-box">
+
+                <div class="form-label">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Digite o Email" required>
+                </div>
+    
+                <div class="form-label">
+                    <label for="email">Telefone</label>
+                    <input type="tel" name="telefone" id="tel" placeholder="Digite o Telefone" required>
+                </div>
+
+            </div> <!--fim form box-->
+
+           <div class="form-box3">
+
+            <div class="form-label">
+                <label for="Situação">Situação</label>
+                <select name="opção" id="opcao">
+                <option value="#">Aprovado</option>
+                <option value="#">Reprovado</option>
+                </select>
+               </div>
+
+           </div>
+
+          <div class="btn">
+            <input type="submit" name="Adicionar" id="Adicionar-btn" value="Adicionar Estudante">
+          </div>
+        </form>
+    </div>
+</body>
+</html>
